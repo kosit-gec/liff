@@ -34,7 +34,6 @@
     async function main() {
       // alert("LINE Developers x Skooldio")
       await liff.init({ liffId: "1657881847-RX37Dbja" })
-      document.getElementById("isLoggedIn").append(liff.isLoggedIn())
       if (liff.isLoggedIn()){
         getUserProfile()
       } else{
